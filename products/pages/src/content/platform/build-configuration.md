@@ -25,7 +25,7 @@ If you are not using a framework, you may input `exit 0` into the **Build comman
 | ---------------------------- | ------------------------------------ | --------------------------- |
 | Angular (Angular CLI)        | `ng build`                           | `dist`                      |
 | Brunch                       | `brunch build --production`          | `public`                    |
-| Docusaurus                   | `npm run build`                      | `build`                     |
+| Docusaurus                   | `yarn build`                         | `build`                     |
 | Eleventy                     | `eleventy`                           | `_site`                     |
 | Ember.js                     | `ember build`                        | `dist`                      |
 | Expo                         | `expo build:web`                     | `web-build`                 |
@@ -40,12 +40,12 @@ If you are not using a framework, you may input `exit 0` into the **Build comman
 | Nuxt.js                      | `nuxt generate`                      | `dist`                      |
 | Pelican                      | `pelican $content [-s settings.py]`  | `output`                    |
 | Quasar                       | `quasar build`                       | `dist/spa`                  |
-| React (create-react-app)     | `npm run build`                      | `build`                     |
+| React (create-react-app)     | `yarn build`                         | `build`                     |
 | React Static                 | `react-static build`                 | `dist`                      |
 | Slate                        | `./deploy.sh`                        | `build`                     |
-| Svelte                       | `npm run build`                      | `public`                    |
+| Svelte                       | `yarn build`                         | `public`                    |
 | Umi                          | `umi build`                          | `dist`                      |
-| Vue                          | `npm run build`                      | `public`                    |
+| Vue                          | `yarn build`                         | `public`                    |
 | VuePress                     | `vuepress build $directory`          | `$directory/.vuepress/dist` |
 
 </TableWrap>
@@ -105,4 +105,4 @@ Many common tools have been pre-installed as well. The environment variable avai
 | Yarn        | Version 1.13.0                   | `YARN_VERSION`       |
 | Zola        | (requires environment variable)  | `ZOLA_VERSION`       |
 
-If you want to set a specific version of a framework your Cloudflare Pages project is using, note that Pages will respect your package manager of choice during your build process. For example, if you use Gatsby.js, your `package.json` should indicate a version of the `gatsby` npm package, which will be installed using `npm install` as your project builds on Cloudflare Pages.
+If you want to set a specific version of a framework your Cloudflare Pages project is using, note that Pages will respect your package manager of choice during your build process. For example, if you use Gatsby.js, your `package.json` should indicate a version of the `gatsby` npm package, which will be installed using `yarn install` as your project builds on Cloudflare Pages.
