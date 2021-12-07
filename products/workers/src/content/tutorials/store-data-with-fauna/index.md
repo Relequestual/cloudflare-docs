@@ -119,7 +119,7 @@ First, install the Fauna JavaScript driver.
 ---
 header: Installing the Fauna driver
 ---
-$ yarn add faunadb
+$ npm install faunadb
 ```
 
 Next, install the [Worktop][worktop] framework for Cloudflare Workers.
@@ -128,7 +128,7 @@ Next, install the [Worktop][worktop] framework for Cloudflare Workers.
 ---
 header: Installing Worktop
 ---
-$ yarn add worktop@0.7
+$ npm install worktop@0.7
 ```
 
 Worktop solves common needs such as routing, path parameters, and  HTTP methods.
@@ -144,7 +144,7 @@ type = "javascript"
 ...
 
 [build]
-command = "yarn build"
+command = "npm run build"
 
 [build.upload]
 format = "service-worker"
@@ -674,7 +674,7 @@ zone_id = ""
 compatibility_date = "2021-11-10"
 
 [build]
-command = "yarn build"
+command = "npm run build"
 
 [build.upload]
 format = "service-worker"

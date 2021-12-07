@@ -37,7 +37,7 @@ While you can manually parse incoming URLs, it is much easier to use a routing l
 ---
 header: Installing itty-router
 ---
-$ yarn add itty-router
+$ npm install itty-router
 ---
 ```
 
@@ -255,7 +255,7 @@ header: "Creating a new React application"
 ---
 $ npx create-react-app blog-frontend
 $ cd blog-frontend
-$ yarn start
+$ npm start
 ```
 
 Start up the app locally, and clear out the contents of `App.js`:
@@ -283,7 +283,7 @@ Add `@reach/router`:
 ---
 header: "Adding @reach/router"
 ---
-$ yarn add @reach/router
+$ npm install @reach/router
 ```
 
 Import it into `App.js`, and set up a new router with two routes:
